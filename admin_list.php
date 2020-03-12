@@ -44,6 +44,7 @@
     <section>
         <br>
         <!-- Displays a table of the items -->
+        <div style="overflow-x:auto;">
             <table>
                 <h2>Vehicles</h2>
                 <tr>
@@ -72,6 +73,7 @@
                 </tr>
                 <?php endforeach; ?>
             </table>
+        </div>
             
             <!--Lets the user add an item to the list-->
             <h1>Add Car</h1>
